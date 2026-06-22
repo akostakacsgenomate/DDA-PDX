@@ -1,0 +1,20 @@
+# Python dependencies for PDX_MS analysis scripts
+# Install with: pip install -r requirements.txt
+# Tested with Python 3.10+
+
+# Core data handling
+pandas>=2.2,<3
+numpy>=1.26,<2
+
+# Statistical modelling
+lifelines>=0.29,<1
+scipy>=1.13,<2
+statsmodels>=0.14,<1
+
+# Plotting
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+
+# Excel I/O
+openpyxl>=3.1,<4
+xlrd>=2.0,<3

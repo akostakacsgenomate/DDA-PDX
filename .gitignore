@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+src/KM_PDX_output_folder.txt
+
+# Generated analysis outputs (re-created on each run)
+src/HR_PDX_run_*/
+src/KM_PDX/
+src/scores_dist_plots_*/
+src/Scores_distribution_PDX/
+src/SCORES_dist_PDX_*/
+src/PDX_Waterfall/
+src/data_modeling_outputs/
+src/crossover_outputs/
+src/DCR_ORR_DB/
+src/Primary_Tumor_Site_distribution/
+
+# Temporary / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+run_logs/
+*.swp
+*~
+~$*
+
+# Superseded data files (kept locally for reference, not tracked)
+data/chemo_data_2024_12_06_exc.xlsx
+
+# Editor
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large binary outputs (if generated locally, do not commit)
+*.rds
+*.RDS

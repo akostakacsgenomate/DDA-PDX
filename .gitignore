@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+
+# Machine-specific output pointers
+src/*_output_folder.txt
+
+# Generated analysis outputs (recreated on each run; do not commit)
+src/score_distributions/
+src/kaplan_meier/
+src/hazard_ratios/
+src/clinical_utility_ranking/
+src/data_modeling/
+src/dcr_orr_db/
+src/tumor_site/
+src/variant_counts/
+src/moa_distribution/
+src/flowchart/
+src/logs/
+src/parallel_run_logs_*/
+src/figure_panels/
+
+# Generated source-data workbooks written into data/ on demand
+data/Source_Data_*.xlsx
+data/Negative_scores_*.xlsx
+data/source_data_build_inventory.md
+
+# Temporary / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+*.swp
+*~
+~$*
+
+# Editor
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large binary caches
+*.rds
+*.RDS
